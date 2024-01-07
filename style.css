@@ -1,0 +1,64 @@
+main{
+    
+    /* border: 1px solid black; */
+    
+}
+
+/* Happy New Year Party Celebration Top banner */
+
+    .sect_happyNewYear{
+        margin: 50px 140px 0px 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+        font-family: 'Merriweather', serif;
+        width: 100rem;
+        height: 45rem; 
+        border: 0;
+        border-radius: 16px;
+        background-image: url(images/Banner\ Image.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+        background-blend-mode: overlay;
+        background-size: cover;
+    }
+
+    .happyNewYear_line{
+        margin: 177px 530px 0px;
+        color: #FFF;
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+    .newYearParty_line{
+        text-align: center;
+        margin: 16px 344px 0px;
+        color: #FFF;
+        font-size: 5.45rem;
+        font-weight: 900;
+    }  
+
+
+/* 65% OFF part */
+
+.sect_65off{
+    margin: 170px auto 0px auto;
+    width: 1600px;
+    height: 7335px;
+}
+.off65_container{
+    font-family: 'Inter' ;
+}
+.off65_line{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    }
+.off65_OurHoliday_line{
+    text-align: center;
+
+
+}
+.off65_Catagories_line{
+    text-align: center;
+
+}

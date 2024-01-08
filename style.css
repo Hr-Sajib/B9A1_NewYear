@@ -2,6 +2,8 @@
 main{
     width: 100%;
 }
+
+
 /* Happy New Year Party Celebration Top banner */
 
     .sect_happyNewYear{
@@ -113,7 +115,7 @@ main{
         font-size: 64px;
         font-style: normal;
         font-weight: 900;
-        line-height: 88px; /* 137.5% */
+        line-height: 88px; 
         letter-spacing: 7.04px;
         margin-bottom: 3rem;
     }
@@ -257,3 +259,74 @@ main{
         width: 10.6rem;
         height: 10.6rem;
     }
+
+
+
+/* Holidays Sales 50% */
+
+.sect_holidaySale{
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    width: 1320px;
+    margin: 150px auto;
+    /* border: 1px solid black; */
+}
+.holidaySale_whatIsFun{
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidaySale_line{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 20px auto;
+}
+.holidaySaleDetails{
+    color: rgba(70, 63, 63, 0.8);
+    font-family: 'Inter';
+    font-size: 1.36rem;
+    font-weight: 400;
+    margin: 0px auto;
+    padding: 0 70px;
+}
+
+
+.holidaySaleBanner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .imageContainer1 {
+    position: relative;
+    margin: 70px 0 0 auto;
+    margin-bottom: 0px;
+  }
+  
+  .girlImage {
+    position: relative;
+    width: 540px;
+    bottom: -5px;
+  }
+  
+  .discount{
+    position: absolute;
+    top: 100px;
+    right: 390px;
+  }
+  .imageContainer2{
+    margin-top: 0;
+  }
+  .blastBox{
+    position: relative;
+    bottom: 550px;
+    left: -300px;
+    width: 600px;
+  }

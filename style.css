@@ -1,5 +1,7 @@
 
-
+main{
+    width: 100%;
+}
 /* Happy New Year Party Celebration Top banner */
 
     .sect_happyNewYear{
@@ -9,8 +11,8 @@
         align-items: center;
         justify-content:center ;
         font-family: 'Merriweather', serif;
-        width: 90%;
-        height: 50rem; 
+        width: 1320px;
+        height: 600px; 
         border: 0;
         border-radius: 16px;
         background-image: url(images/Banner\ Image.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -21,14 +23,14 @@
     .happyNewYear_line{
         margin: 0rem auto 2rem auto;
         color: #FFF;
-        font-size: 3rem;
+        font-size: 32px;
         font-weight: 400;
     }
     .newYearParty_line{
         text-align: center;
         margin: 0px auto;
         color: #FFF;
-        font-size: 6rem;
+        font-size: 72px;
         font-weight: 900;
     }  
 
@@ -40,10 +42,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 9rem auto 9rem auto;
-        width: 55%;
-    /*  height: 555rem; */
-        /* border: 1px solid black; */
+        margin: 100px auto 100px auto;
+        width: 50%;
     }
     .off65_container{
         font-family: 'Inter' ;
@@ -71,6 +71,7 @@
         font-weight: 700;
     }
     .off65picture{
+        width: 800px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -88,29 +89,28 @@
         background-size: cover;
         background-position: center;
         border-radius: 16px;
-        width: 90%;
-        height: 46rem; 
+        width: 1320px;
+        height: 600px; 
         margin: 50px auto;
-        /* padding: 3rem 3rem; */
         
     }
 
     .welToMid_Container {
-        margin-top: 5rem;
-        margin-left: 10rem;
+        margin-top: 50px;
+        margin-left: 80px;
         display: flex;
         flex-direction: column;
         justify-content: left;
         
     }
     .welToMid_Pic{
-        height: 35rem;
-        margin: 6rem 5rem;
+        height: 450px;
+        margin: 80px 80px;
     }
     .welToMidTitle{
         color: rgb(252, 252, 252);
         font-family: Merriweather;
-        font-size: 5rem;
+        font-size: 64px;
         font-style: normal;
         font-weight: 900;
         line-height: 88px; /* 137.5% */
@@ -121,19 +121,17 @@
         color: rgba(250, 246, 246, 0.8);
         font-family: Inter;
         font-size: 18px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 30px; /* 166.667% */
         margin: 0 auto 0 auto;
     }
     .welToMidJoin{
-        margin: 5rem 0 0 2rem;
+        margin: 40px 0 0 0;
         color: #FFF;
         background-color:transparent;
         border:0px solid white;
         text-align: center;
         font-family: Inter;
-        font-size: 1.5rem;
+        font-size: 20px;
         font-weight: 700;
         width: 9rem;
     }
@@ -148,33 +146,114 @@
         background-position: center;
         align-items:center;
         border-radius: 16px;
-        width: 90%;
-        height: 36.5rem; 
-        margin: 10rem auto;
-       
+        width: 1320px;
+        height: 482px; 
+        margin: 100px auto;    
+        /* border: 1px solid black; */
+   
     }
     .placeHotelDetails{
-        margin: 7.6rem auto 3rem auto;
+        margin: 80px auto 70px auto;
         color: #070211;
         text-align: center;
         font-family: Inter;
         font-size: 32px;
         font-style: normal;
         font-weight: 600;
-        line-height: 56px; /* 175% */
-        text-transform: capitalize;
+        line-height: 56px; 
     }
     .placeHotelJoinNow{
         font: 'Inter';
         font-weight: 700;
-        font-size: 1.5rem;
-        width: 12.6rem;
-        height: 4.2rem;
+        font-size: 20px;
+        width: 167px;
+        height: 56px;
         border-radius: 8px;
         background: #F00;
         color: #FFFFFF;
         border: 0;
     }
     .specTxtplaceHotel{
+        color:#F00;
+    }
+
+
+
+/* Coming soon section */
+
+    .sect_comingSoon {
+        display: flex;
+        justify-content: space-between; 
+        width: 1320px;
+        margin: 60px auto; 
+        flex-direction: row;
+        /* border: 1px solid black; */
+
+    }
+    .comingSoonContainer{
+        width: 30%;
+        margin: auto 0;
+    }
+    .comingSoonPicture{
+        width: 390px;
+        height: 390px;
+        margin: 15px 15px;
+    }
+    .image-container {
+        position: relative;
+        display: inline-block;
+        margin: auto auto;
+    }
+
+    .red-ring {
+        position: absolute;
+        top: -10px; 
+        left: -10px; 
+        width: 420px; 
+        height: 420px; 
+        border: 10px solid red; 
+        border-radius: 50%; 
+    }
+
+    .newBestOffer{
         color: #F00;
+        text-align: left;
+        font-family: 'Inter';
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .comingSoonLines{
+        margin: 0 0;
+        color: #070211;
+        font-family: Merriweather;
+        font-size:  3.6rem;
+        font-weight: 900;
+    }
+    .comingSoonDetails{
+        color: rgba(70, 63, 63, 0.8);
+        font-family: 'Inter';
+        font-size: 1.36rem;
+        font-weight: 400;
+    }
+    .comingSoon2024{
+        width: 30%;
+        padding-left: 3rem;
+    }
+    .comingSoon2024Title{
+        color: #F00;
+        font-family: 'Inter';
+        font-size: 3.6rem;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .comingSoon2024Details{
+        color: rgba(70, 63, 63, 0.8);
+        font-family: 'Inter';
+        font-size: 1.36rem;
+        font-weight: 400;
+    }
+    .comingSoon2024Picture{
+        width: 10.6rem;
+        height: 10.6rem;
     }
